@@ -1,0 +1,28 @@
+{
+  "name": "lab_full_stack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.4.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-google": "^0.11.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.4",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "server:dev": "nodemon server/server.js",
+    "build": "webpack -w",
+    "test": "mocha specs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
