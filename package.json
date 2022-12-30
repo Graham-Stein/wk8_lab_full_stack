@@ -12,8 +12,8 @@
     "eslint-config-google": "^0.11.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.17.4",
-    "webpack": "^4.23.1",
-    "webpack-cli": "^3.1.2"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "scripts": {
     "start": "node server/server.js",
